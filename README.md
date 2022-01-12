@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Source Code](https://github.com/waltersono/intro-component-with-signup-form)
-- Live Site URL: [View on Browser](https://waltersono.github.io/intro-component-with-signup-form/)
+- Solution URL: [Source Code](https://github.com/waltersono/ping-single-column-coming-soon-page)
+- Live Site URL: [View on Browser](https://waltersono.github.io/ping-single-column-coming-soon-page/)
 
 ### Built with
 
