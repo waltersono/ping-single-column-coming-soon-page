@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Ping coming soon page</title>
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,600,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="app.css">
+  <script defer src="app.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <img src="images/logo.svg" alt="Company logo" class="logo">
+
+      <h1 class="h1"><span class="text--light">We are launching</span> soon!</h1>
+
+      <p class="paragraph">Subscribe and get notified</p>
+
+    </header>
+
+    <main class="main">
+
+      <form class="form">
+        <div class="form__group">
+          <div class="form__input-group">
+            <input type="email" class="form__input" aria-label="Email" placeholder="Your email address"
+              value="example@email/com">
+            <p class="form__input-error">Please provide a valid email address</p>
+          </div>
+          <button type="submit" class="form__btn">Notify Me</button>
+        </div>
+      </form>
+
+      <img src="images/illustration-dashboard.png" alt="Dashboard illustration" class="illustration">
+
+    </main>
+
+    <footer class="footer">
+      <ul class="social__list">
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <svg class="social__icon">
+              <use xlink:href="images/sprites.svg#icon-facebook-with-circle"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <svg class="social__icon">
+              <use xlink:href="images/sprites.svg#icon-twitter-with-circle"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <svg class="social__icon">
+              <use xlink:href="images/sprites.svg#icon-instagram-with-circle"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+
+      <p class="footer__copyright">
+        &copy; Copyright Ping. All rights reserved.
+      </p>
+    </footer>
+
+  </div>
+</body>
+
+</html>
